@@ -1,4 +1,9 @@
 # Super Market
+Containerized Web App using Docker, Flask, MongoDB.
+In this web app you can register, login, add/edit/remove products, add products to cart, get product info, and place order via webservices
+You can download Postman to send the requests at server!
+
+
 Αρχικά για την ενεργοποίηση του service η διαδικασία που πρέπει να ολοκληρωθεί είναι η παρακάτω. Πρέπει να είναι εγκατεστημένο στον υπολογιστή  το Docker,το οποίο θα κάνει δυνατή την λειτουργία συγκεκριμέων containers και images,με χρήση των αρχείων docker_compose.yml και Dockerfile.Αφού βάλουμε σε έναν φάκελο τα αρχεία αυτά και το project.py ανούγουμε ένα terminal,μπαίνουμε στο directory του φακέλου και εκτελούμε την εντολή docker-compose up -d.
 Πλέον το service είναι έτοιμο για να εκτελεστούν τα endpoints τα οποία βρίσκονται στο αρχείο project.py. Τέλος πρέπει να υπάρχει διαθέσιμο κάποιο πρόγραμμα που επιτρέπει την χρήση HTTP μεθόδων(κατά προτίμηση postman).Οι browser δέχονται μόνο get μεθόδους. Με την εντολή docker-compose down μπορούμε να σταματήσουμε το service.
 # Αναλυτικά τα endpoints.
